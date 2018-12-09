@@ -281,10 +281,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.flamingo
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/sensors.flamingo.so
+LOCAL_SRC_FILES := vendor/lib/sensors.flamingo.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 endif
